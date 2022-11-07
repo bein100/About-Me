@@ -1,0 +1,158 @@
+@import url(fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: IB;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav {
+    background: black;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    gap: 70px;
+}
+
+.logo {
+    color: white;
+    font-size: 40px;
+}
+
+header ul a {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: IR;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 92vh;
+    background: url(../img/header-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 151px;
+}
+
+.btn {
+    font-size: 35px;
+    color: #000000;
+    border-radius: 10px;
+    background: white;
+    padding: 10px 20px;
+}
+
+.about {
+    background: #0E1C25;
+    padding: 30px 0 112px 0;
+}
+
+.main-title {
+    color: white;
+    text-align: center;
+    font-style: 40px;
+    margin-bottom: 47px;
+}
+
+.about-content {
+    display: flex;
+    color: white;
+    gap: 140px;
+}
+
+.about-content-txt h3 {
+    font-family: IM;
+    font-size: 35px;
+    margin-bottom: 62px;
+}
+
+.about-content-txt p {
+    font-size: 18px;
+    font-family: IM;
+    max-width: 427px;
+    line-height: 22px;
+}
+
+.works {
+    background: #5C6B81;
+    padding: 43px 0 70px;
+}
+
+.card {
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #B12B06;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 15px 27px 15px;
+}
+
+.card .btn {
+    font-size: 20px;
+    padding: 8px 21px;
+    width: max-content;
+    display: block;
+    margin: 0 auto;
+}
+
+.works-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 30px;
+}
+
+footer {
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 55px;
+}
+
+footer h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+    padding: 46px 0 34px;
+    font-family: 'Montserrat';
+}
+
+footer ul {
+    display: flex;
+    gap: 203px;
+}
+
+.burger {
+    display: none;
+    visibility: hidden;
+}
