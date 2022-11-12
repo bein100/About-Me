@@ -52,7 +52,10 @@
         justify-content: center;
         transition: 500ms;
     }
-
+    .header_nav {
+        position: relative;
+    }
+    
     .burger {
         display: block;
         visibility: visible;
